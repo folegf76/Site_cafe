@@ -4,7 +4,9 @@ import os
 
 # Create your models here.
 
+
 class DishCategory(models.Model):
+
     name = models.CharField(max_length=50, unique=True)
     position = models.PositiveSmallIntegerField(unique=True)
     is_visible = models.BooleanField(default=True)
@@ -32,5 +34,33 @@ class Dish(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     ingredients = models.CharField(max_length=100)
     photo = models.ImageField(upload_to=get_file_name)
+
+
+class WhyOur(models.Model):
+
+    name = models.CharField(max_length=100, unique=True)
+    position = models.PositiveSmallIntegerField()
+    is_visible = models.BooleanField(default=True)
+    is_about = models.BooleanField(default=False)
+    desc = models.TextField(max_length=500)
+    video = models.URLField(blank=True)
+
+
+class Events(models.Model):
+
+    def get_file(self, filename: str):
+        ext = filename.strip().split('.')[-1]
+        filename = f'{uuid.uuid4()}.{ext}'
+        return os.path.join('images/events', filename)
+
+    name = models.CharField(max_length=50, unique=True)
+    position = models.PositiveSmallIntegerField()
+    is_visible = models.BooleanField(default=True)
+    desc = models.TextField(max_length=500)
+    price = models.DecimalField(max_digits=8)
+    photo = models.ImageField(upload_to=get_file)
+
+
+
 
 
