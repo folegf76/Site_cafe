@@ -59,6 +59,7 @@ class Events(models.Model):
     desc = models.TextField(max_length=500)
     price = models.DecimalField(max_digits=8)
     photo = models.ImageField(upload_to=get_file)
+    date = models.DateTimeField(unique=True)
 
 
 
