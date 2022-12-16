@@ -69,17 +69,15 @@ class Events(models.Model):
     position = models.PositiveSmallIntegerField()
     is_visible = models.BooleanField(default=True)
     desc = models.TextField(max_length=500)
-    price = models.DecimalField(max_digits=8)
+    price = models.DecimalField(max_digits=8, decimal_places=2)
     photo = models.ImageField(upload_to=get_file)
     date = models.DateTimeField(unique=True)
 
     def __str__(self):
-        return f'{self.name}: {self.position}'
+        return f'{self.name}: {self.date}'
 
     class Meta:
         ordering = ('position', )
-
-
 
 
 
