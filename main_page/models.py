@@ -35,6 +35,12 @@ class Dish(models.Model):
     ingredients = models.CharField(max_length=100)
     photo = models.ImageField(upload_to=get_file_name)
 
+    def __str__(self):
+        return f'{self.name}: {self.position}'
+
+    class Meta:
+        ordering = ('position', )
+
 
 class WhyOur(models.Model):
 
@@ -44,6 +50,12 @@ class WhyOur(models.Model):
     is_about = models.BooleanField(default=False)
     desc = models.TextField(max_length=500)
     video = models.URLField(blank=True)
+
+    def __str__(self):
+        return f'{self.name}: {self.position}'
+
+    class Meta:
+        ordering = ('position', )
 
 
 class Events(models.Model):
@@ -60,6 +72,12 @@ class Events(models.Model):
     price = models.DecimalField(max_digits=8)
     photo = models.ImageField(upload_to=get_file)
     date = models.DateTimeField(unique=True)
+
+    def __str__(self):
+        return f'{self.name}: {self.position}'
+
+    class Meta:
+        ordering = ('position', )
 
 
 
