@@ -84,4 +84,36 @@ class Events(models.Model):
         ordering = ('position', )
 
 
+class About(models.Model):
+
+    name = models.CharField(max_length=50, unique=True)
+    name_bold = models.CharField(max_length=50, blank=True)
+    position = models.PositiveSmallIntegerField()
+    is_visible = models.BooleanField(default=True)
+    desc_1 = models.TextField(max_length=200)
+    desc_2 = models.TextField(max_length=200)
+    paragraph_1 = models.TextField(max_length=100)
+    paragraph_2 = models.TextField(max_length=100)
+    paragraph_3 = models.TextField(max_length=100)
+    desc_final = models.TextField(max_length=200)
+    video = models.URLField()
+
+    def __str__(self):
+        return f'{self.name}: {self.name_bold}'
+
+    class Meta:
+        ordering = ('position', )
+
+
+class Gallery(models.Model):
+
+    def get_file_name(self, filename: str):
+        ext = filename.strip().split('.')[-1]
+        filename = f'{uuid.uuid4()}.{ext}'
+        return os.path.join('images/gallery', filename)
+
+    is_visible = models.BooleanField(default=True)
+    desc = models.CharField(max_length=100, blank=True)
+    photo = models.ImageField(upload_to=get_file_name)
+
 

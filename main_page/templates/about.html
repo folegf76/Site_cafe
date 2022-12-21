@@ -10,15 +10,15 @@
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
 
                     <div class="content">
-                        <h3><strong>{{ about.name }}</strong></h3>
-                        <p>{{ about.desc }}</p>
-                        <p class="fst-italic"></p>
+                        <h3>{{ about.name }}<strong> {{ about.name_bold }}</strong></h3>
+                        <p>{{ about.desc_1 }}</p>
+                        <p class="fst-italic">{{ about.desc_2 }}</p>
                         <ul>
-                            <li><i class="bx bx-check-double"></i></li>
-                            <li><i class="bx bx-check-double"></i></li>
-                            <li><i class="bx bx-check-double"></i></li>
+                            <li><i class="bx bx-check-double"></i>{{ about.paragraph_1 }}</li>
+                            <li><i class="bx bx-check-double"></i>{{ about.paragraph_2 }}</li>
+                            <li><i class="bx bx-check-double"></i>{{ about.paragraph_3 }}</li>
                         </ul>
-                        <p></p>
+                        <p>{{ about.desc_final }}</p>
                     </div>
                 </div>
             {% endfor %}
