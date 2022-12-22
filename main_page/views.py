@@ -3,14 +3,13 @@ from .models import DishCategory, Dish, WhyOur, Events, About, Gallery
 from .forms import UserReservationForm
 import random
 
-# Create your views here.
+
 def main_page(request):
     if request.method == 'POST':
         form_reserve = UserReservationForm(request.POST)
         if form_reserve.is_valid():
             form_reserve.save()
             return redirect('/')
-
 
     categories = DishCategory.objects.filter(is_visible=True)
     dishes = Dish.objects.filter(is_visible=True, is_special=False)
@@ -21,7 +20,6 @@ def main_page(request):
     gallery_photos = list(Gallery.objects.filter(is_visible=True))
     gallery_photos = random.sample(gallery_photos, 8)
     form_reserve = UserReservationForm()
-
 
     return render(request, 'main_page.html', context={
         'categories': categories,

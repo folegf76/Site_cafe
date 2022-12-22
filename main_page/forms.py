@@ -22,7 +22,7 @@ class UserReservationForm(forms.ModelForm):
         'data-rule': "minlen:4",
         'data-msg': "Please enter at least 4 chars"
     }))
-    email = forms.CharField(max_length=20, widget=forms.TextInput(attrs={
+    email_us = forms.CharField(max_length=20, widget=forms.TextInput(attrs={
         'type': "email",
         'class': "form-control",
         'name': "email",
@@ -31,7 +31,7 @@ class UserReservationForm(forms.ModelForm):
         'data-rule': "email",
         'data-msg': "Please enter a valid email"
     }))
-    persons = forms.ImageField(widget=forms.NumberInput(attrs={
+    persons = forms.IntegerField(widget=forms.NumberInput(attrs={
         'type': "number",
         'class': "form-control",
         'name': "people",
@@ -55,7 +55,7 @@ class UserReservationForm(forms.ModelForm):
         'data-rule': "minlen:4",
         'data-msg': "Please enter at least 4 chars"
     }))
-    times = forms.CharField(max_length=50, widget=forms.TextInput(attrs={
+    times = forms.CharField(max_length=15, widget=forms.TextInput(attrs={
         'type': "text",
         'class': "form-control",
         'name': "time",
@@ -67,6 +67,6 @@ class UserReservationForm(forms.ModelForm):
 
     class Meta:
         model = UserReservation
-        fields = ('name', 'phone', 'email', 'persons', 'message', 'date', 'times')
+        fields = ('name', 'phone', 'email_us', 'persons', 'message', 'date', 'times')
 
 
