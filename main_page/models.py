@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import RegexValidator
 import uuid
 import os
 
@@ -117,3 +118,24 @@ class Gallery(models.Model):
     photo = models.ImageField(upload_to=get_file_name)
 
 
+class UserReservation(models.Model):
+
+    phone_validator = RegexValidator(regex=r'^\+?3?8?0\d{2}[- ]?(\d[- ]?){7}$', message='не вірний номер')
+    email_validator = RegexValidator(regex=r'^[0-9A-Za-z](-?[0-9A-Za-z_])+@[0-9A-Za-z](-?[0-9A-Za-z._])+$',
+                                     message='не вірний email')
+    time_validator = RegexValidator(regex=r'^\d{2}.\d{2}', message='введіть час в форматі хх:хх')
+    name = models.CharField(max_length=50)
+    phone = models.CharField(max_length=20, validators=[phone_validator])
+    email = models.CharField(max_length=20, validators=[email_validator])
+    persons = models.PositiveSmallIntegerField()
+    message = models.TextField(max_length=250, blank=True)
+    date = models.CharField(max_length=50)
+    times = models.CharField(max_length=5, validators=[time_validator], blank=True)
+    manager_data_processed = models.DateField(auto_now=True)
+    is_processed = models.BooleanField(default=False)
+
+    class Meta:
+        ordering = ('-date', )
+
+    def __str__(self):
+        return f'{self.name} {self.phone}: {self.message[:20]}'
