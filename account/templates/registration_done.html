@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+
+{% block site_content %}
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <h1 class="display-4">Привіт, {{ user.username }}</h1>
+                <p>Ви зареєстровані.</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
