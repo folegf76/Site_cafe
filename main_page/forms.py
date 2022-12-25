@@ -9,7 +9,7 @@ class UserReservationForm(forms.ModelForm):
         'name': "name",
         'class': "form-control",
         'id': "name",
-        'placeholder': "Your Name",
+        'placeholder': "Ваше ім'я",
         'data-rule': "minlen:4",
         'data-msg': "Please enter at least 4 chars"
     }))
@@ -18,7 +18,7 @@ class UserReservationForm(forms.ModelForm):
         'class': "form-control",
         'name': "phone",
         'id': "phone",
-        'placeholder': "Your Phone",
+        'placeholder': "Ваш телефон",
         'data-rule': "minlen:4",
         'data-msg': "Please enter at least 4 chars"
     }))
@@ -27,7 +27,7 @@ class UserReservationForm(forms.ModelForm):
         'class': "form-control",
         'name': "email",
         'id': "email",
-        'placeholder': "Your Email",
+        'placeholder': "Ваш Email",
         'data-rule': "email",
         'data-msg': "Please enter a valid email"
     }))
@@ -36,7 +36,7 @@ class UserReservationForm(forms.ModelForm):
         'class': "form-control",
         'name': "people",
         'id': "people",
-        'placeholder': "# of people",
+        'placeholder': "Кількість людей",
         'data-rule': "minlen:1",
         'data-msg': "Please enter at least 1 chars"
     }))
@@ -44,14 +44,14 @@ class UserReservationForm(forms.ModelForm):
         'class': "form-control",
         'name': "message",
         'rows': "5",
-        'placeholder': "Message"
+        'placeholder': "Повідомлення"
     }))
     date = forms.CharField(max_length=50, widget=forms.TextInput(attrs={
         'type': "text",
         'name': "date",
         'class': "form-control",
         'id': "date",
-        'placeholder': "Date",
+        'placeholder': "Дата",
         'data-rule': "minlen:4",
         'data-msg': "Please enter at least 4 chars"
     }))
@@ -60,7 +60,7 @@ class UserReservationForm(forms.ModelForm):
         'class': "form-control",
         'name': "time",
         'id': "time",
-        'placeholder': "Time",
+        'placeholder': "Час",
         'data-rule': "minlen:4",
         'data-msg': "Please enter at least 4 chars"
     }))
