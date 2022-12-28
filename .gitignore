@@ -1,5 +1,5 @@
-.venv\
+.venv/
 .venv
 .idea
-.idea\
-ETALONindex.html
+.idea/
+templates/ETALONindex.html
