@@ -1,0 +1,1 @@
+web: gunicorn djangoProject_Cafe.wsgi --log-file -

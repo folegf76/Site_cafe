@@ -1,0 +1,2209 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-12-16T11:07:16.968Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Салати: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-12-16T11:07:40.090Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Перші страви: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-12-16T11:07:55.000Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Другі страви: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-12-16T11:08:08.350Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Напитки: 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-12-16T11:09:29.316Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Салат 1: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-12-16T11:09:56.910Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Салат 2: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-12-16T11:10:25.359Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Салат 3: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-12-16T11:11:05.297Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Перша страва 1: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-12-16T11:11:36.880Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Перша страва 2: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-12-16T11:11:59.546Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Перша страва 3: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-12-16T11:12:32.239Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Друга страва 1: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-12-16T11:12:57.055Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Друга страва 2: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-12-16T11:13:17.792Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Друга страва 3: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-12-16T11:13:45.659Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Напитки 1: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-12-16T11:14:15.137Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Напитки 2: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-12-16T11:14:40.602Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Напитки 3: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-12-16T11:15:22.330Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Салати: 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-12-16T11:16:10.340Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Напитки 6: 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-12-16T18:15:01.573Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Напої: 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-12-16T18:15:20.215Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Напій 1: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-12-16T18:15:32.703Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Напій 2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-12-16T18:15:47.016Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Напій 3: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-12-16T18:15:59.423Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Напій 6: 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-12-16T19:27:39.380Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Салат 7: 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-12-17T14:03:10.597Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Новий рік: 2022-12-31 06:00:00+00:00",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-12-17T14:06:21.005Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Старий новий рік: 2023-01-31 00:00:00+00:00",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-12-17T14:07:02.189Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "укуку: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-12-17T14:07:41.564Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "пачттнпс: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-12-17T14:08:00.497Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "енгенг: 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-12-17T14:09:43.086Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "ООООООО: 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-12-17T14:57:47.404Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "ООООООО: 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is about\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-12-17T17:20:42.504Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "ddfffgghjdg jf: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-12-17T17:21:27.726Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "lkjlkjlkj hgfhgf: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-12-17T20:30:25.878Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Старий новий рік: 2023-01-31 00:00:00+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-12-17T20:30:50.732Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Новий рік: 2022-12-31 06:00:00+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-12-17T20:49:41.752Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Новий рік: 2022-12-31 06:00:00+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-12-17T20:50:12.738Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Старий новий рік: 2023-01-31 00:00:00+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-12-18T09:51:47.600Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "ООООООО: 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-12-18T10:27:22.387Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Концепція: 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-12-18T10:29:26.262Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Ми зібрали найсмачніші страви з усіх регіонів України.: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-12-18T10:30:18.078Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Влітку ми відкриваємо сезон прогулянок на кораблях.: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-12-18T10:31:06.208Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "На дітей очікують захоплюючі розваг: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-12-18T10:34:25.306Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Олів`є: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-12-18T10:35:18.472Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Салат 2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-12-18T10:36:36.744Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "САЛАТ З КРЕВЕТКАМИ: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-12-18T10:38:46.573Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Шуба: 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-12-18T10:47:07.220Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Борщ зі свининою: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-12-18T10:48:04.818Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Вегетаріанський борщ: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-12-18T10:48:32.909Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Вегетаріанський борщ: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-12-18T10:48:58.740Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "2 страва 2: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-12-18T10:50:12.892Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Курячий бульйон з локшиною: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-12-18T10:51:39.410Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Деруни: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-12-18T10:52:46.592Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Голубці: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-12-18T10:55:20.093Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Бріош з тунцем: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-12-18T10:56:16.086Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Сік: 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-12-18T10:57:53.950Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Глінтвейни: 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-12-18T10:58:26.959Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Кава: 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Price\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-12-18T10:59:00.209Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "какао: 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Desc\", \"Ingredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-12-18T11:00:23.128Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "какао: 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-12-18T11:07:01.648Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Новий рік: 2022-12-31 06:00:00+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\", \"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\", \"Desc final\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-12-18T11:08:28.371Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Старий новий рік: 2023-01-31 00:00:00+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\", \"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\", \"Desc final\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-12-21T13:11:44.157Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Концепція: якої ми дотримуємось",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-12-21T13:12:41.246Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Концепція: якої ми дотримуємось",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-12-21T13:32:44.260Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Gallery object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-12-21T13:32:50.843Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Gallery object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-12-21T13:32:57.537Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Gallery object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-12-21T13:33:01.804Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Gallery object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-12-21T13:33:05.782Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Gallery object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-12-21T13:33:09.856Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "Gallery object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-12-21T13:33:13.455Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Gallery object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-12-21T13:33:16.967Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Gallery object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-12-21T13:33:28.054Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "Gallery object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-12-21T13:33:34.205Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Gallery object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-12-22T16:58:33.861Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Олег 099-999-99-99: НУ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-12-23T18:41:25.891Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Олег 099-999-99-99: Добрий день.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2022-12-23T18:43:53.993Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Олег 099-999-99-99: Добрий день.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2022-12-23T18:49:02.744Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Олег 099-999-99-99: Добрий день.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2022-12-23T19:00:33.249Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "manager",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2022-12-23T19:01:04.575Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "user1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add dish category",
+        "content_type": 7,
+        "codename": "add_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change dish category",
+        "content_type": 7,
+        "codename": "change_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete dish category",
+        "content_type": 7,
+        "codename": "delete_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view dish category",
+        "content_type": 7,
+        "codename": "view_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add dish",
+        "content_type": 8,
+        "codename": "add_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change dish",
+        "content_type": 8,
+        "codename": "change_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete dish",
+        "content_type": 8,
+        "codename": "delete_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view dish",
+        "content_type": 8,
+        "codename": "view_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add events",
+        "content_type": 9,
+        "codename": "add_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change events",
+        "content_type": 9,
+        "codename": "change_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete events",
+        "content_type": 9,
+        "codename": "delete_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view events",
+        "content_type": 9,
+        "codename": "view_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add why our",
+        "content_type": 10,
+        "codename": "add_whyour"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change why our",
+        "content_type": 10,
+        "codename": "change_whyour"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete why our",
+        "content_type": 10,
+        "codename": "delete_whyour"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view why our",
+        "content_type": 10,
+        "codename": "view_whyour"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add about",
+        "content_type": 11,
+        "codename": "add_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change about",
+        "content_type": 11,
+        "codename": "change_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete about",
+        "content_type": 11,
+        "codename": "delete_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view about",
+        "content_type": 11,
+        "codename": "view_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add gallery",
+        "content_type": 12,
+        "codename": "add_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change gallery",
+        "content_type": 12,
+        "codename": "change_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete gallery",
+        "content_type": 12,
+        "codename": "delete_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view gallery",
+        "content_type": 12,
+        "codename": "view_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add user reservation",
+        "content_type": 13,
+        "codename": "add_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change user reservation",
+        "content_type": 13,
+        "codename": "change_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete user reservation",
+        "content_type": 13,
+        "codename": "delete_userreservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view user reservation",
+        "content_type": 13,
+        "codename": "view_userreservation"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "manager",
+        "permissions": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            41,
+            42,
+            43,
+            44,
+            29,
+            30,
+            31,
+            32,
+            25,
+            26,
+            27,
+            28,
+            33,
+            34,
+            35,
+            36,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            37,
+            38,
+            39,
+            40,
+            21,
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$lxajOsCKw6vksKnLLDKNO5$1hY69OmhJhiaZZQpk+M3MFtYxR9tc1B7C/qdIGRsYZc=",
+        "last_login": "2022-12-23T19:14:07.655Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-14T09:53:59.019Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$aBq86PYm5VMzz8KgrFriBc$QA+I/rTqFCMfrOz3rbPlX6k2MmFLXg3VgGqChm2Q0Fg=",
+        "last_login": "2022-12-28T10:26:50.401Z",
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-23T16:13:01Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$B5mkCyN9s6ZeoArGfDn7TU$EfA3ogutiffyUOpeXtSFKk1awUJd2N3jupPX6zX9F30=",
+        "last_login": "2022-12-23T19:13:06.505Z",
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-23T19:02:32.014Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$X7ODNgrIEo1GFJPh4tNdE2$2JeM6bHb7/frRVEKKoVXTQ/0ml6vwh/Pcud5p0Tpyp0=",
+        "last_login": "2022-12-23T19:13:47.144Z",
+        "is_superuser": false,
+        "username": "user3",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-23T19:03:02.201Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main_page",
+        "model": "dishcategory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main_page",
+        "model": "dish"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main_page",
+        "model": "events"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main_page",
+        "model": "whyour"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main_page",
+        "model": "about"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main_page",
+        "model": "gallery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "main_page",
+        "model": "userreservation"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "b008q1vxfwa2sqf1aks1zfnagj7eiqpf",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSGUEh4u3fsNZJgZpGogKe3K-O9K0oVu7zn3vESEfStx77zGhcRZaHH63RLgg-sAdId6axJb3dYlyaHIg3Z5bcTPy-H-BQr0Mt42GAOcPFDSyiU3gXc6qElTQJ0BZrQhKwPeu28VZ8qWjEueiVXALN4f-Qs49w:1p8lYW:jT_U1iTwbf8BdqKDDz89ZMOfumApD0dPt6EYwOyE9kw",
+        "expire_date": "2023-01-06T17:10:00.784Z"
+    }
+},
+{
+    "model": "main_page.dishcategory",
+    "pk": 1,
+    "fields": {
+        "name": "Салати",
+        "position": 1,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.dishcategory",
+    "pk": 2,
+    "fields": {
+        "name": "Перші страви",
+        "position": 2,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.dishcategory",
+    "pk": 3,
+    "fields": {
+        "name": "Другі страви",
+        "position": 3,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.dishcategory",
+    "pk": 4,
+    "fields": {
+        "name": "Напої",
+        "position": 4,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 1,
+    "fields": {
+        "name": "Олів`є",
+        "position": 1,
+        "is_visible": true,
+        "category": 1,
+        "is_special": false,
+        "desc": "Олів`є з копченою індичкою та яловичим язиком",
+        "price": "100.00",
+        "ingredients": "індичка, язик, горошок, майонез",
+        "photo": "images/dishes/e1f14b36-72e2-4923-9c41-925ab4799b01.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 2,
+    "fields": {
+        "name": "Салат 2",
+        "position": 2,
+        "is_visible": true,
+        "category": 1,
+        "is_special": false,
+        "desc": "Салат із запечених овочів з телятиною",
+        "price": "110.00",
+        "ingredients": "овочі, телятина",
+        "photo": "images/dishes/d3066abf-beea-43fa-ae7c-a89b6d9ab3f0.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 3,
+    "fields": {
+        "name": "САЛАТ З КРЕВЕТКАМИ",
+        "position": 3,
+        "is_visible": true,
+        "category": 1,
+        "is_special": false,
+        "desc": "Креветки підсмажилися в ароматній часниковій олійці й влаштували запальну вечірку. У списку гостей – чері, хрумкий нут та мікс салату. Коли вже всі зібралися, під'їхав кунжут.",
+        "price": "300.00",
+        "ingredients": "креветки, чері, мікс салату, олія",
+        "photo": "images/dishes/0538f75b-6b61-4796-92ca-a94412688062.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 4,
+    "fields": {
+        "name": "Борщ зі свининою",
+        "position": 1,
+        "is_visible": true,
+        "category": 2,
+        "is_special": false,
+        "desc": "Подаємо з бородинським хлібом сметаною та перетертим салом",
+        "price": "111.00",
+        "ingredients": "Свинина, буряк, капуста, картопля",
+        "photo": "images/dishes/d133c53c-2a85-4212-90d9-e6cce24da0a6.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 5,
+    "fields": {
+        "name": "Голубці",
+        "position": 2,
+        "is_visible": true,
+        "category": 3,
+        "is_special": false,
+        "desc": "Домашні голубці з копченим м'ясом в листях молодої капусти",
+        "price": "200.00",
+        "ingredients": "м'ясо,  капуста, рис",
+        "photo": "images/dishes/f0ee4008-3110-463b-8e8b-356985413b93.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 6,
+    "fields": {
+        "name": "Курячий бульйон з локшиною",
+        "position": 3,
+        "is_visible": true,
+        "category": 2,
+        "is_special": false,
+        "desc": "бульйон курячий, лапша, яйце, філе куряче, петрушка",
+        "price": "303.00",
+        "ingredients": "Лапша, філе куряче, яйце",
+        "photo": "images/dishes/e447f23d-b820-402d-98af-913c2c7b3efa.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 7,
+    "fields": {
+        "name": "Деруни",
+        "position": 1,
+        "is_visible": true,
+        "category": 3,
+        "is_special": false,
+        "desc": "Деруни з закарпатськими білими грибами запеченими в сметані",
+        "price": "111.00",
+        "ingredients": "білі гриби, картопля",
+        "photo": "images/dishes/a9a707e4-a009-4130-b963-9f4900480bcd.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 8,
+    "fields": {
+        "name": "Вегетаріанський борщ",
+        "position": 2,
+        "is_visible": true,
+        "category": 2,
+        "is_special": false,
+        "desc": "зі сметаною та бородинським хлібом",
+        "price": "222.00",
+        "ingredients": "Капуста, картопля, буряк",
+        "photo": "images/dishes/b4ed81a8-5345-47d0-9bd7-f5753fd401aa.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 9,
+    "fields": {
+        "name": "Бріош з тунцем",
+        "position": 3,
+        "is_visible": true,
+        "category": 3,
+        "is_special": false,
+        "desc": "Мегасвіжий тунець зустрів вершковий бріош. Разом вони поїхали за крем-сиром й соусом песто. А родзинку пікантності у ці смачні стосунки додали м'ята та чилі.",
+        "price": "333.00",
+        "ingredients": "Тунець, соус, чілі",
+        "photo": "images/dishes/be94b1a2-62ce-4a07-b927-db56e31edf35.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 10,
+    "fields": {
+        "name": "Сік",
+        "position": 1,
+        "is_visible": true,
+        "category": 4,
+        "is_special": false,
+        "desc": "мікс Апельсин/Яблуко/Вишня/Мультифрукт/Ананас/Томат",
+        "price": "11.00",
+        "ingredients": "Апельсин/Яблуко/Вишня/Мультифрукт/Ананас/Томат",
+        "photo": "images/dishes/649b7cec-8808-4543-8f03-868b23c5d9a2.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 11,
+    "fields": {
+        "name": "Глінтвейни",
+        "position": 2,
+        "is_visible": true,
+        "category": 4,
+        "is_special": false,
+        "desc": "Класичний червоний",
+        "price": "222.00",
+        "ingredients": "червоне вино, кориця, апельсин",
+        "photo": "images/dishes/f2960019-7a76-42b4-a1f4-fd0b5205cba1.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 12,
+    "fields": {
+        "name": "Кава",
+        "position": 3,
+        "is_visible": true,
+        "category": 4,
+        "is_special": false,
+        "desc": "Чорна кава",
+        "price": "33.00",
+        "ingredients": "кава",
+        "photo": "images/dishes/b952be40-37df-4677-abfa-51ea786ce1c2.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 13,
+    "fields": {
+        "name": "Шуба",
+        "position": 5,
+        "is_visible": true,
+        "category": 1,
+        "is_special": true,
+        "desc": "Оселедець під шубою із запечених овочів",
+        "price": "500.00",
+        "ingredients": "Оселедець, буряк, морква, майонез",
+        "photo": "images/dishes/f910ac48-1a0b-4141-9bab-b09d27421b62.jpg"
+    }
+},
+{
+    "model": "main_page.dish",
+    "pk": 14,
+    "fields": {
+        "name": "какао",
+        "position": 5,
+        "is_visible": true,
+        "category": 4,
+        "is_special": true,
+        "desc": "Айс какао з солоною карамелью",
+        "price": "55.00",
+        "ingredients": "Какао, карамель",
+        "photo": "images/dishes/feffc5b7-b088-4809-9855-5dc10a5c27eb.jpg"
+    }
+},
+{
+    "model": "main_page.whyour",
+    "pk": 1,
+    "fields": {
+        "name": "Ми зібрали найсмачніші страви з усіх регіонів України.",
+        "position": 1,
+        "is_visible": true,
+        "is_about": false,
+        "desc": "Три види наваристого борщу, п‘ять видів вареників, сім видів сала та страви із м‘яса на мангалі. Кожні вихідні шеф готує фірмовий борщ на вогні за особливим рецептом.",
+        "video": ""
+    }
+},
+{
+    "model": "main_page.whyour",
+    "pk": 2,
+    "fields": {
+        "name": "Влітку ми відкриваємо сезон прогулянок на кораблях.",
+        "position": 2,
+        "is_visible": true,
+        "is_about": false,
+        "desc": "Це унікальна можливість не лише побачити гарні краєвиди, а й отримати гастрономічне задоволення. Для прогулянки можна замовити будь-які страви з нашого меню.",
+        "video": ""
+    }
+},
+{
+    "model": "main_page.whyour",
+    "pk": 3,
+    "fields": {
+        "name": "На дітей очікують захоплюючі розваг",
+        "position": 3,
+        "is_visible": true,
+        "is_about": false,
+        "desc": "Кожні вихідні на дітей очікують захоплюючі розваги: уроки гончарного мистецтва, ліплення вареників та можливість стати справжнім шоколатьє.",
+        "video": ""
+    }
+},
+{
+    "model": "main_page.whyour",
+    "pk": 4,
+    "fields": {
+        "name": "Концепція",
+        "position": 4,
+        "is_visible": true,
+        "is_about": true,
+        "desc": "Щороку на період різдвяних свят в місті з’являються вони - креденсівські гномики. Саме вони в ніч на 1 грудня щороку прикрашають кав’ярні, готують новинки, змінюють KREDENS радіо на різдвяне та замінюють усі етикетки з фірмовою кавою на святкові",
+        "video": "https://www.youtube.com/watch?v=-ufHsxV8O9c"
+    }
+},
+{
+    "model": "main_page.events",
+    "pk": 1,
+    "fields": {
+        "name": "Новий рік",
+        "position": 1,
+        "is_visible": true,
+        "desc": "Запрошуємо вас зустріти Новий Рік в обіймах домашньої атмосфери у Split!",
+        "paragraph_1": "Ф’южн-ресторані",
+        "paragraph_2": "Караоке",
+        "paragraph_3": "Шоу-барі",
+        "desc_final": "Згадаємо сімейні традиції і щиро сміятимемося з ведучим. Надихатимемося виконанням кавер-гурту і танцюватимемо під музичні сети. І звичайно, найголовніше —смакуватимемо сет-меню від шеф-кухаря.",
+        "price": "100.00",
+        "photo": "images/events/96542ce8-e421-47f2-8493-03cd5ba17290.jpg",
+        "date": "2022-12-31T06:00:00Z"
+    }
+},
+{
+    "model": "main_page.events",
+    "pk": 2,
+    "fields": {
+        "name": "Старий новий рік",
+        "position": 2,
+        "is_visible": true,
+        "desc": "Зустрічаємо Старий Новий Рік, як вдома!",
+        "paragraph_1": "Шоу-барі",
+        "paragraph_2": "сет-меню від шеф-кухаря",
+        "paragraph_3": "Караоке",
+        "desc_final": "Згадаємо сімейні традиції і щиро сміятимемося з ведучим. І звичайно, найголовніше —смакуватимемо сет-меню від шеф-кухаря у поєднанні з ігристим та коктейлями з барної карти.",
+        "price": "200.00",
+        "photo": "images/events/f2d21cfa-e953-4413-8390-b5bc6679f5d0.jpg",
+        "date": "2023-01-31T00:00:00Z"
+    }
+},
+{
+    "model": "main_page.about",
+    "pk": 1,
+    "fields": {
+        "name": "Концепція",
+        "name_bold": "якої ми дотримуємось",
+        "position": 1,
+        "is_visible": true,
+        "desc_1": "Щороку на період різдвяних свят в місті з’являються вони - креденсівські гномики.",
+        "desc_2": "Саме вони в ніч на 1 грудня щороку прикрашають кав’ярні, готують новинки, змінюють KREDENS радіо на різдвяне та заміню",
+        "paragraph_1": "Приходьте з друзями",
+        "paragraph_2": "Приходьте сім'ями",
+        "paragraph_3": "Завітайте на корпоративи",
+        "desc_final": "Наш ресторан відрізняється від інших особливим відношенням до гостей. Кожному нашому відвідувачу ми запропонуємо щось особливе.",
+        "video": "https://www.youtube.com/watch?v=-ufHsxV8O9c"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 1,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/13a0c0d4-10da-4aa5-8ff9-6f6a45080f6e.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 2,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/81ec2add-cb1f-4906-9d41-d339e14cd910.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 3,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/ff1429bb-c2f3-48a0-999b-de6252521968.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 4,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/93dff188-410d-4e9a-8084-373a53978b48.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 5,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/633ae23a-6363-4f87-a204-ba53129f281d.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 6,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/c3e16313-730a-4b3c-b80d-3ba64b2e37a2.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 7,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/983e92e4-d34a-4746-baa2-698e31e9af66.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 8,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/c68173d6-ee16-4c60-9b50-b7a662a6e999.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 9,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/cf340658-f8e8-4701-a38e-6bf49ef0a663.jpg"
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 10,
+    "fields": {
+        "is_visible": true,
+        "desc": "",
+        "photo": "images/gallery/a25b30c7-19ad-4e79-8964-31291042c3e9.jpg"
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 1,
+    "fields": {
+        "name": "Олег",
+        "phone": "099-999-99-99",
+        "email_us": "oleh@ukr.net",
+        "persons": 3,
+        "message": "НУ",
+        "date": "21.01.2023",
+        "times": "15:20",
+        "manager_data_processed": "2022-12-22",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_page.userreservation",
+    "pk": 2,
+    "fields": {
+        "name": "Олег",
+        "phone": "099-999-99-99",
+        "email_us": "oleh@ukr.net",
+        "persons": 2,
+        "message": "Добрий день.",
+        "date": "21.01.2023",
+        "times": "15.30",
+        "manager_data_processed": "2022-12-23",
+        "is_processed": false
+    }
+}
+]

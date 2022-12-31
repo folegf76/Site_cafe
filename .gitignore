@@ -3,3 +3,9 @@
 .idea
 .idea/
 templates/ETALONindex.html
+*.log
+*.pot
+*.pyc
+__pycache__
+local_settings.py
+db.sqlite3
